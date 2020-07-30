@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <LangVersion>8.0</LangVersion>
+    <TargetFrameworks>net5.0;netstandard2.0</TargetFrameworks>
+    <Nullable>enable</Nullable>
+    <NoWarn>1701;1702;1998</NoWarn>
+
+    <Version>1.0.0</Version>
+    <PackageId>Mockery</PackageId>
+    <Authors>Sean Terry</Authors>
+    <Description>Helper methods to reduce typing when using Moq.</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>https://github.com/seanterry/Mockery/releases</PackageReleaseNotes>
+    <Copyright>Copyright 2020 Sean Terry (seanterry@outlook.com)</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/seanterry/Mockery</PackageProjectUrl>
+    <DocumentationFile>bin\Mockery.xml</DocumentationFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectCapability Include="DynamicDependentFile" />
+    <ProjectCapability Include="DynamicFileNesting" />
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
+      <_Parameter1>Mockery.Test</_Parameter1>
+    </AssemblyAttribute>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Moq" Version="4.14.5" />
+  </ItemGroup>
+  
+</Project>
