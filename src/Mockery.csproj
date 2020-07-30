@@ -14,7 +14,7 @@
     <PackageReleaseNotes>https://github.com/seanterry/Mockery/releases</PackageReleaseNotes>
     <Copyright>Copyright 2020 Sean Terry (seanterry@outlook.com)</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/seanterry/Mockery</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/seanterry/Mockery</RepositoryUrl>
     <DocumentationFile>bin\Mockery.xml</DocumentationFile>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
